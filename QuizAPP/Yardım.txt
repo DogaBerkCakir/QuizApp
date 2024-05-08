@@ -1,0 +1,63 @@
+<div class="container">: Bootstrap tarafından sağlanan bir sınıf olan "container" div'i başlatır. Bu, içeriğin düzgün şekilde hizalanmasını sağlar.
+
+<div class="row">: Bootstrap tarafından sağlanan bir sınıf olan "row" div'i başlatır. Bu, içindeki öğelerin bir satırda düzenlenmesini sağlar.
+
+<div class="col-12">: Bootstrap tarafından sağlanan bir sınıf olan "col-12" div'i başlatır. Bu, içindeki içeriğin tam genişlikte yayılmasını sağlar.
+
+<div class="card">: Bootstrap tarafından sağlanan bir sınıf olan "card" div'i başlatır. Bu, bir kart görünümü oluşturur ve içeriğinizi gruplar.
+
+<div class="card-header">: Bootstrap tarafından sağlanan bir sınıf olan "card-header" div'i başlatır. Bu, kartın başlık bölümünü belirtir.
+
+Todo App: Kartın başlık metni, bu sayede kullanıcıya uygulamanın adını gösterir.
+
+</div>: "card-header" div'ini sonlandırır.
+
+<div class="card-body">: Bootstrap tarafından sağlanan bir sınıf olan "card-body" div'i başlatır. Bu, kartın ana içeriğini gruplar.
+
+<form>: Bir HTML formunu başlatır. Formlar, kullanıcıların veri girmesini ve sunucuya göndermesini sağlar.
+
+<div class="input-group">: Bootstrap tarafından sağlanan bir sınıf olan "input-group" div'i başlatır. Bu, bir giriş alanı ve bu alana iliştirilmiş bir butonu içeren bir giriş grubunu belirtir.
+
+<input type="text" id="txtTaskName" class="form-control">: Bir metin girişi oluşturur. Bu, kullanıcının yeni görevleri girmesini sağlar. "form-control" sınıfı, Bootstrap tarafından sağlanan bir sınıftır ve giriş alanının görünümünü düzenler.
+
+<button style="margin-left: 20px; border-radius: 10px;" type="submit" class="btn btn-warning" id="btnAddNewTask">Ekle</button>: Bir buton oluşturur. Bu buton, yeni bir görevin eklenmesini tetikler. "btn btn-warning" sınıfları, Bootstrap tarafından sağlanan stillerdir ve butonun görünümünü belirler.
+
+</div>: "input-group" div'ini sonlandırır.
+
+</form>: HTML formunu sonlandırır.
+
+</div>: "card-body" div'ini sonlandırır.
+
+</div>: "card" div'ini sonlandırır.
+
+<div class="card-mt-3">: Bootstrap tarafından sağlanan bir sınıf olan "card-mt-3" div'i başlatır. Bu, bir kartın başka bir karttan ayrılmasını sağlar.
+
+<div class="card-header controls">: Bootstrap tarafından sağlanan "card-header" ve "controls" sınıflarına sahip bir div'i başlatır. Bu, filtrelerin ve temizleme düğmesinin gruplandığı kart başlığını belirtir.
+
+<div class="filters">: Filtrelerin gruplandığı bir div'i başlatır.
+
+<span class="active" id="all">Hepsi</span>: "Hepsi" filtresini belirten bir span öğesi. "active" sınıfı, filtrelerden birinin etkin olduğunu belirtir.
+
+<span id="tamamlanmamis">Yapılacaklar</span>: "Yapılacaklar" filtresini belirten bir span öğesi.
+
+<span id="tamamlanmis">Tamamlananlar</span>: "Tamamlananlar" filtresini belirten bir span öğesi.
+
+</div>: "filters" div'ini sonlandırır.
+
+<button id="btnClear" class="btn btn-sm btn-primary">Temizle</button>: "Temizle" düğmesini belirten bir buton. Bu, tüm görevleri temizlemek için kullanılır.
+
+</div>: "card-header" div'ini sonlandırır.
+
+<ul id="task-list" class="list-group list-group-flush"></ul>: Görevlerin listelendiği bir liste oluşturur. "task-list" id'si ve "list-group list-group-flush" sınıfları, Bootstrap tarafından sağlanan stillerdir ve liste öğelerini düzenler.
+
+</div>: "card-mt-3" div'ini sonlandırır.
+
+</div>: "col-12" div'ini sonlandırır.
+
+</div>: "row" div'ini sonlandırır.
+
+</div>: "container" div'ini sonlandırır.
+
+</body>: HTML gövde bölümünü sonlandırır.
+
+Bu açıklamalar, HTML belgenizin body bölümünde yer alan kodların ne işe yaradığını açıklar.
